@@ -11,7 +11,6 @@ ENV MIX_ENV="test"
 
 RUN mix local.hex --force && \
     mix local.rebar --force && \
-    mix deps.get && \
     mix archive.install --force github rrrene/bunt && \
     mix archive.install --force github rrrene/credo
 
