@@ -1,5 +1,5 @@
 name: 'Run credo with reviewdog and build tools'
-description: '🐶 Run credo with reviewdog on pull requests to improve code review experience. Comes with support for build tools, so dependencies like bcrypt work.'
+description: '🐶 Run credo with reviewdog on pull requests. Supports deps that need build tools.'
 author: 'Gray'
 inputs:
   github_token:
