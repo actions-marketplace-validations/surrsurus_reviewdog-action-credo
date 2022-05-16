@@ -1,4 +1,4 @@
-name: 'Run credo with reviewdog'
+name: 'Fixes for running credo with reviewdog'
 description: '🐶 Run credo with reviewdog on pull requests to improve code review experience.'
 author: 'Hauleth'
 inputs:
