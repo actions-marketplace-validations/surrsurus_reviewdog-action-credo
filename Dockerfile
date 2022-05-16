@@ -9,8 +9,6 @@ RUN wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/master/in
 ENV MIX_HOME /var/mix
 ENV MIX_ENV="test"
 
-COPY config/config.exs config/${MIX_ENV}.exs config/
-
 RUN mix local.hex --force && \
     mix local.rebar --force && \
     mix deps.get && \
